@@ -1,6 +1,6 @@
 ## PortSwigger Academy -  Lab: CSRF where token validation depends on request method
 ## 📚 Studijní materiál
-Tento repozitář slouží jako můj osobní studijní zápisník a přehled řešení laboratoří z platformy PortSwigger Web Security Academy. Dokumentuji zde postupy a hledání netradičních míst, kde dochází k reflexi uživatelského vstupu.
+Tento repozitář slouží jako můj osobní studijní zápisník a přehled řešení laboratoří z platformy PortSwigger Web Security Academy.
 
 Přihlášení a zadání e-mailu: Přihlásil jsem se pomocí údajů wiener a peter. V sekci My Account jsem viděl aktuální e-mail (wiener@normal-user.net), který jsem přepsal na flip@hudson.com a potvrdil tlačítkem.
 
@@ -10,7 +10,7 @@ Otestování chyby v tokenu schválně: Zkusil jsem v tom řádku přepsat hodno
 
 Změna metody požadavku: Kliknul jsem v okně Request pravým tlačítkem myši, vybral možnost Change request method (čímž se požadavek přepnul z POST na GET) a dal Send. Najednou to prošlo bez chyby!
 
-Vygenerování exploitu: Kliknul jsem v Repeateru pravým tlačítkem na požadavek, vybral Engagement tools -> Generate CSRF PoC. V okně jsem v URL hodnotě u e-mailu upravil jméno na flip@hudson.com, zaškrtnul volbu Include auto-submit script, kliknul na Regenerate a pak na Copy HTML.
+Vygenerování exploitu: Kliknul jsem v Repeateru pravým tlačítkem na požadavek, vybral Engagement tools -> Generate CSRF PoC. V okně jsem v URL hodnotě u e-mailu upravil jméno na cat@hudson.com, zaškrtnul volbu Include auto-submit script, kliknul na Regenerate a pak na Copy HTML.
 
 Vložení na Exploit server: Šel jsem do laboratoře, otevřel Exploit server a do pole Body vložil následující kód:
 
